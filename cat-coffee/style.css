@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+
+body{max-width: 1080px;
+    margin: 0 auto 0 auto; 
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif; 
+}
+/*ヘッダーのロゴと文字の並び*/
+header{display: flex;
+justify-content: space-between;
+}
+#nav-pc{font-size: 14px;
+}
+#nav-pc ul{display: flex;
+    text-align: right;}
+#nav-pc li{text-decoration: none;}
+#nav-pc a {text-decoration: none;}
+
+#nav-pc a:hover{text-decoration: underline;}
+
